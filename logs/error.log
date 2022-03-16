@@ -1,0 +1,55 @@
+2022/03/10 16:25:48 [notice] 16108#16104: signal process started (quit)
+2022/03/10 16:25:48 [error] 16108#16104: CreateFile() "C:\NGJIX/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2022/03/10 16:25:49 [emerg] 16112#15836: CreateDirectory() "/nginx/srv/hls/" failed (3: The system cannot find the path specified)
+2022/03/10 16:27:08 [notice] 15448#9744: signal process started (quit)
+2022/03/10 16:27:08 [error] 15448#9744: CreateFile() "C:\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2022/03/10 16:27:09 [notice] 15140#552: sockinit() attempting to access sockapi
+2022/03/10 16:27:09 [notice] 15140#552: Access to sockapi succeded!
+2022/03/10 16:27:09 [notice] 15140#552: using sockapi from "4;156;"
+2022/03/10 16:27:09 [notice] 8504#5472: sockinit() attempting to access sockapi
+2022/03/10 16:27:09 [notice] 8504#5472: Access to sockapi succeded!
+2022/03/10 16:27:09 [notice] 8504#5472: using sockapi from "4;8;"
+2022/03/10 16:43:34 [error] 15140#14896: *6 directory index of "C:/nginx/srv/" is forbidden, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1"
+2022/03/10 16:43:34 [error] 15140#14896: *6 CreateFile() "C:/nginx/srv/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2022/03/10 16:43:52 [error] 15140#14896: *6 directory index of "C:/nginx/srv/" is forbidden, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1"
+2022/03/10 16:43:52 [error] 15140#14896: *6 directory index of "C:/nginx/srv/" is forbidden, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1"
+2022/03/10 16:44:11 [error] 15140#14896: *6 directory index of "C:/nginx/srv/" is forbidden, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1"
+2022/03/10 16:44:12 [error] 15140#14896: *6 directory index of "C:/nginx/srv/" is forbidden, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1"
+2022/03/10 16:52:05 [error] 15140#14896: *9 CreateFile() "C:/nginx/srv/live" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /live HTTP/1.1", host: "127.0.0.1"
+2022/03/10 16:52:08 [error] 15140#14896: *9 CreateFile() "C:/nginx/srv/live" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /live HTTP/1.1", host: "127.0.0.1"
+2022/03/10 16:52:09 [error] 15140#14896: *9 CreateFile() "C:/nginx/srv/live" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /live HTTP/1.1", host: "127.0.0.1"
+2022/03/10 16:57:11 [error] 15140#14896: *12 CreateFile() "C:/nginx/srv/live/stream1" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /live/stream1 HTTP/1.1", host: "127.0.0.1"
+2022/03/10 17:13:04 [error] 8504#1436: *15 CreateFile() "C:/nginx/srv/live/stream1" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /live/stream1 HTTP/1.1", host: "127.0.0.1"
+2022/03/10 17:13:11 [error] 8504#1436: *15 CreateFile() "C:/nginx/srv/live" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /live HTTP/1.1", host: "127.0.0.1"
+2022/03/10 17:13:19 [error] 8504#1436: *15 directory index of "C:/nginx/srv/" is forbidden, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1"
+2022/03/10 17:34:02 [error] 15140#14896: *24 CreateFile() "C:/nginx/srv/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2022/03/10 17:38:25 [error] 15140#14896: *25 CreateFile() "C:/nginx/srv/live/stream1" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /live/stream1 HTTP/1.1", host: "127.0.0.1"
+2022/03/10 17:39:33 [error] 15140#14896: *28 CreateFile() "C:/nginx/srv/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2022/03/10 17:42:29 [error] 15140#14896: *31 CreateFile() "C:/nginx/srv/favicon.ico" failed (2: The system cannot find the file specified), client: 192.168.8.111, server: , request: "GET /favicon.ico HTTP/1.1", host: "192.168.8.112", referrer: "http://192.168.8.112/viewer.html"
+2022/03/16 14:54:49 [notice] 6088#13020: signal process started (quit)
+2022/03/16 14:54:49 [error] 6088#13020: OpenEvent("Global\ngx_quit_14656") failed (2: The system cannot find the file specified)
+2022/03/16 14:54:49 [notice] 1808#10140: sockinit() attempting to access sockapi
+2022/03/16 14:54:49 [notice] 1808#10140: Access to sockapi succeded!
+2022/03/16 14:54:49 [notice] 1808#10140: using sockapi from "4;152;"
+2022/03/16 14:54:49 [notice] 14184#17196: sockinit() attempting to access sockapi
+2022/03/16 14:54:49 [notice] 14184#17196: Access to sockapi succeded!
+2022/03/16 14:54:49 [notice] 14184#17196: using sockapi from "4;8;"
+2022/03/16 14:57:27 [error] 1808#3720: *2 CreateFile() "C:/nginx/srv/live" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /live HTTP/1.1", host: "127.0.0.1"
+2022/03/16 14:57:27 [error] 1808#3720: *2 CreateFile() "C:/nginx/srv/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/live"
+2022/03/16 14:57:36 [error] 1808#3720: *2 CreateFile() "C:/nginx/srv/live/viewer.html" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /live/viewer.html HTTP/1.1", host: "127.0.0.1"
+2022/03/16 14:58:22 [notice] 14952#12524: signal process started (quit)
+2022/03/16 14:59:10 [notice] 2520#12080: signal process started (quit)
+2022/03/16 14:59:10 [error] 2520#12080: OpenEvent("Global\ngx_quit_1824") failed (2: The system cannot find the file specified)
+2022/03/16 14:59:11 [notice] 6856#11288: sockinit() attempting to access sockapi
+2022/03/16 14:59:11 [notice] 6856#11288: Access to sockapi succeded!
+2022/03/16 14:59:11 [notice] 6856#11288: using sockapi from "4;152;"
+2022/03/16 14:59:11 [notice] 11360#15052: sockinit() attempting to access sockapi
+2022/03/16 14:59:11 [notice] 11360#15052: Access to sockapi succeded!
+2022/03/16 14:59:11 [notice] 11360#15052: using sockapi from "4;8;"
+2022/03/16 14:59:35 [error] 6856#3892: *2 CreateFile() "C:/nginx/srv/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/live/viewer.html"
+2022/03/16 14:59:43 [error] 6856#3892: *2 CreateFile() "C:/nginx/srv/live/viewer.html" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /live/viewer.html HTTP/1.1", host: "127.0.0.1"
+2022/03/16 14:59:59 [error] 6856#3892: *2 CreateFile() "C:/nginx/srv/live/viewer.html" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /live/viewer.html HTTP/1.1", host: "127.0.0.1"
+2022/03/16 15:00:16 [error] 11360#9412: *3 CreateFile() "C:/nginx/srv/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2022/03/16 15:02:21 [error] 6856#3892: *5 CreateFile() "C:/nginx/srv/view.html" failed (2: The system cannot find the file specified), client: 192.168.8.114, server: , request: "GET /view.html HTTP/1.1", host: "192.168.8.112"
+2022/03/16 15:02:21 [error] 6856#3892: *5 CreateFile() "C:/nginx/srv/favicon.ico" failed (2: The system cannot find the file specified), client: 192.168.8.114, server: , request: "GET /favicon.ico HTTP/1.1", host: "192.168.8.112", referrer: "http://192.168.8.112/view.html"
+2022/03/16 15:02:31 [error] 11360#9412: *7 CreateFile() "C:/nginx/srv/favicon.ico" failed (2: The system cannot find the file specified), client: 192.168.8.114, server: , request: "GET /favicon.ico HTTP/1.1", host: "192.168.8.112", referrer: "http://192.168.8.112/viewer.html"
